@@ -455,8 +455,7 @@ p {
 }
 
 @media (min-width: 961px) {
-  header,
-  footer {
+  body {
     min-width: 961px;
   }
 
@@ -522,7 +521,7 @@ p {
     top: -70px;    
   }
 
-  picture {
+  .footballer > img {
   	max-width: 29.688vw;
   }
 
@@ -555,17 +554,21 @@ p {
 
   .basketballer {
     position: absolute;
-    top: 25px;
-    right: 115px;
+    top: -4.688vw;
+    right: 5.990vw;
+  }
+
+  .basketballer > img {
+  	max-width: 51.302vw;
   }
 
   .players {
-    margin-left: 190px;
+    margin-left: 9.896vw;
   }
 
   .post_players {
-    margin-right: 975px;
-    margin-left: 190px;
+    margin-right: 50.781vw;
+    margin-left: 9.896vw;
   }
 
   .post {
@@ -588,40 +591,39 @@ p {
   }
 
   .number_post {
-    width: 168px;
-    height: 155px;
+    width: 8.750vw;
+    height: 8.073vw;
     position: absolute;
-    left: calc(50% - 84px);
+    left: calc(50% - 4.375vw);
+    margin-top: 80px;
   }
 
   .title_section {
-    font-size: 80px;
+    font-size: 4.167vw;
   }
 
   .flex_block p {
-    font-size: 24px;
+    font-size: 1.250vw;
   }
 
   .flex_block .post {
-    margin-left: 128px;
-    margin-right: 116px;
+    margin-left: 6.667vw;
+    margin-right: 6.042vw;
   }
 
   .font_num {
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 1.250vw;
+    line-height: 1.667vw;
   }
 
-  .num_line {
-    width: 25px;
-    height: 5px;
+  .order {
+  	order: 1;
   }
 
-  .logo_foot_text {
+    .logo_foot_text {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 105px;
+    justify-content: center;    
   }
 
   .logo_bg {
